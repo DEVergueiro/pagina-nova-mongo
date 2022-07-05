@@ -4,7 +4,7 @@ const routes = require("./routes");
 const handleError = require("./middlewares/handleError");
 const path = require('path');
 const connectMongoDb = require('./database');
-const { default: mongoose } = require("mongoose");
+const { default: mongoose } = require("mongoose")
 
 connectMongoDb();
 
